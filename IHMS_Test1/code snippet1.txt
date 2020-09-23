@@ -1,0 +1,23 @@
+    .cboDoBMonth.Style = 0
+    .cboDoBMonth.Text = ""
+    .cboDoBMonth.Style = 2
+    
+    .cboDoBDay.Style = 0
+    .cboDoBDay.Text = ""
+    .cboDoBDay.Style = 2
+    
+    .cboDoBYear.Style = 0
+    .cboDoBYear.Text = ""
+    .cboDoBYear.Style = 2
+    
+    .cboSex.Style = 0
+    .cboSex.Text = ""
+    .cboSex.Style = 2
+    
+    .cboBloodGrp.Style = 0
+    .cboBloodGrp.Text = ""
+    .cboBloodGrp.Style = 2
+    
+    .cboRHFactor.Style = 0
+    .cboRHFactor.Text = ""
+    .cboRHFactor.Style = 2
