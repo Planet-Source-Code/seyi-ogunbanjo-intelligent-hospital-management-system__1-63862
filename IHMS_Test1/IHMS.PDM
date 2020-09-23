@@ -1,0 +1,248 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Documents and Settings\user\Desktop\IHMS
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\WINNT\system32\MSRDO20.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.exe=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\oleaut32.dll=Yes
+D:\WINNT\system32\olepro32.dll=Yes
+D:\WINNT\system32\asycfilt.dll=Yes
+D:\WINNT\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINNT\system32\MSJET35.DLL=Yes
+D:\WINNT\system32\MSJTER35.DLL=Yes
+D:\WINNT\system32\MSJINT35.DLL=Yes
+D:\WINNT\system32\vbajet32.dll=Yes
+D:\WINNT\system32\expsrv.dll=Yes
+D:\WINNT\system32\MSRD2X35.DLL=Yes
+D:\WINNT\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINNT\system32\VB5DB.DLL=Yes
+D:\WINNT\system32\MSRDO20.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.exe=$(AppPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+D:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Intelligent Hospital Management System
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Intelligent Hospital Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Intelligent Hospital Management System]
+Icon1=IHMS.exe
+Title1=Intelligent Hospital Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Documents and Settings\user\Desktop\IHMS
+ProjectFolder=D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1
+ServerSideCab=
+File1=D:\Documents and Settings\user\Desktop\IHMS\setup.exe
+File2=D:\Documents and Settings\user\Desktop\IHMS\Setup.Lst
+File3=D:\Documents and Settings\user\Desktop\IHMS\IHMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Documents and Settings\user\Desktop\IHMS2
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+D:\WINNT\system32\MSRDO20.DLL=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.mdb=
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=
+
+[Package|Standard Setup Package 2|Files Removed]
+d:\documents and settings\user\my documents\code related\ihms_test1\ihms.mdb=
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.exe=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\oleaut32.dll=Yes
+D:\WINNT\system32\olepro32.dll=Yes
+D:\WINNT\system32\asycfilt.dll=Yes
+D:\WINNT\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+D:\WINNT\system32\MSJET35.DLL=Yes
+D:\WINNT\system32\MSJTER35.DLL=Yes
+D:\WINNT\system32\MSJINT35.DLL=Yes
+D:\WINNT\system32\vbajet32.dll=Yes
+D:\WINNT\system32\expsrv.dll=Yes
+D:\WINNT\system32\MSRD2X35.DLL=Yes
+D:\WINNT\system32\MSREPL35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\WINNT\system32\VB5DB.DLL=Yes
+D:\WINNT\system32\MSRDO20.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.mdb=No
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.exe=$(AppPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+D:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+D:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1\IHMS_97.mdb=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=multi
+Size=2.88 MB
+Title=Intelligent Hospital Management System
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Intelligent Hospital Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Intelligent Hospital Management System]
+Icon1=IHMS.exe
+Title1=Intelligent Hospital Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\Documents and Settings\user\Desktop\IHMS2
+ProjectFolder=D:\Documents and Settings\user\My Documents\Code Related\IHMS_Test1
+ServerSideCab=
+File1=D:\Documents and Settings\user\Desktop\IHMS2\setup.exe
+File2=D:\Documents and Settings\user\Desktop\IHMS2\Setup.Lst
+File3=D:\Documents and Settings\user\Desktop\IHMS2\IHMS1.CAB
+File4=D:\Documents and Settings\user\Desktop\IHMS2\IHMS2.CAB
+File5=D:\Documents and Settings\user\Desktop\IHMS2\IHMS3.CAB
+File6=D:\Documents and Settings\user\Desktop\IHMS2\IHMS4.CAB
+File7=D:\Documents and Settings\user\Desktop\IHMS2\IHMS5.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

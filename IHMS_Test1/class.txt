@@ -1,0 +1,29 @@
+Dim m_HospNo As Integer
+Dim m_SName As String
+Dim m_FName As String
+Dim m_DoB As Date
+Dim m_Sex As String
+
+Dim m_HomeAdd As String
+Dim m_StateOfOrigin As String
+Dim m_Occupation As String
+
+Dim m_NameNoK As String
+Dim m_RelaNok As String
+Dim m_AddNok As String
+
+Dim m_NameSponsor As String
+Dim m_AddSponsor As String
+
+Dim m_LabRefNo As Integer
+Dim m_BloodGrp As String
+Dim m_RHFactor As String
+Dim m_Allergy As String
+
+Dim m_AdmissionDate As Date
+Dim m_DischargeDate As Date
+
+Dim m_CaseRefNo As Long
+Dim m_DocName As String
+Dim m_Diagnosis As String
+Dim m_DischargeStatus As String
